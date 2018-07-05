@@ -29,7 +29,7 @@ pip install opencv-python
 ```
 
 ## Ocena uzyskanej skuteczności detekcji.
-Niestety na chwilę obecną nie udało się wykonać statystycznej oceny wyników. Obserwując jak przebiega detekcja na filmie, można uznać, że wynik nie jest dobry, gdyż model ma zbyt niski próg detekcji i wyszukuje zbyt wiele obektów. Może to być spowodawane złym doborem parametrów lub zbyt małą liczbą opisanych obrazów (do użytego modelu opisano ok. 400 zdjęć). Dodatkowo na niektórych zdjęciach wybierano całą sylwetkę psa, a w innych jedynie jego głowę, co mogło negatywnie wpłynąć na działanie modelu.  
+Niestety na chwilę obecną nie udało się wykonać statystycznej oceny wyników. Obserwując jak przebiega detekcja na filmie, można uznać, że wynik nie jest dobry, gdyż model ma zbyt niski próg detekcji i wyszukuje zbyt wiele obektów. Może to być spowodawane złym doborem parametrów lub zbyt małą liczbą opisanych obrazów (do użytego modelu opisano ok. 400 zdjęć - dogdetector1.xml, 200 - dogdetector2.xml). Dodatkowo na niektórych zdjęciach wybierano całą sylwetkę psa, a w innych jedynie jego głowę, co mogło negatywnie wpłynąć na działanie modelu.  
 
 ## Dodatkowe pliki
 

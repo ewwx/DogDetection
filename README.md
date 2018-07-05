@@ -2,7 +2,7 @@
 ## Budowa modelu kaskadowego, przeznaczonego do detekcji. 
 Celem projektu jest zbudowanie modelu dokonującego detekcji psów na obrazie, opierając się na metodzie Viola_Jonesa.
 
-Projekt powstał na podstawie [instrucji](https://www.cs.auckland.ac.nz/~m.rezaei/Tutorials/Creating_a_Cascade_of_Haar-Like_Classifiers_Step_by_Step.pdf).
+Projekt powstał na podstawie [instrucji](https://www.cs.auckland.ac.nz/~m.rezaei/Tutorials/Creating_a_Cascade_of_Haar-Like_Classifiers_Step_by_Step.pdf). Pliki \cadcade2xml oraz \training są pobrane z: [źródło](https://www.cs.auckland.ac.nz/~m.rezaei/Tutorials/Haar-Training.zip), któego utorem jest [Mahdi Rezaei](m.rezaei@auckland.ac.nz) from Department of Computer Science, the University of Auckland.
 
 Baza zdjęć z której pobrano zdjęcia psów znajduje się [tutaj](https://drive.google.com/drive/folders/1XaFM8BJFligrqeQdE-_5Id0V_SubJAZe).
 
@@ -31,4 +31,6 @@ pip install opencv-python
 ## Ocena uzyskanej skuteczności detekcji.
 Niestety na chwilę obecną nie udało się wykonać statystycznej oceny wyników. Obserwując jak przebiega detekcja na filmie, można uznać, że wynik nie jest dobry, gdyż model ma zbyt niski próg detekcji i wyszukuje zbyt wiele obektów. Może to być spowodawane złym doborem parametrów lub zbyt małą liczbą opisanych obrazów (do użytego modelu opisano ok. 400 zdjęć). Dodatkowo na niektórych zdjęciach wybierano całą sylwetkę psa, a w innych jedynie jego głowę, co mogło negatywnie wpłynąć na działanie modelu.  
 
+## Dodatowe pliki
 
+W folderze \code zamieszczono rónież program konwertujący zdjęcia do formatu bmp. 
